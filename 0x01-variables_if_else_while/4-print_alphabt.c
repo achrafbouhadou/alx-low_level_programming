@@ -9,11 +9,11 @@ int main(void)
 {
 	char f;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	for (f = 'a'; f <= 'z'; ch++)
 	{
-		if(ch != q && ch != e )
+		if(f != q && f != e )
 		{
-			putchar(ch);
+			putchar(f);
 		}
 	}
 	putchar('\n');
